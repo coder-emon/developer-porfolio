@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 40%;
+   
+}
+.half-width img {
+    max-width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.orange{
+    color: orange;
+}
+.link-btn{
+    color: aliceblue;
+    background-color: #FF6549;
+    padding: 10px 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: 700;
+}
+.second-section{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/dream-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+}
+.last-section{
+    
+        background-image: url("images/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left;
+        padding-bottom: 200px;
+}
+.exp-wrap{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+.exp-item{
+    width: 40%;
+        box-shadow: 5px 7px 40px grey;
+        height: 80%;
+        padding: 30px 20px 100px 20px;
+        margin-right: 30px;
+}
+.exp-item h1{
+    font-size: 35px;
+    
+}
+.exp-item h2 {
+    
+    padding-bottom:20px;
+}
+.footer{
+    text-align: center;
+    padding: 20px 0;
+}
+.border-orange{
+    border-left:10px solid#FF6549
+}
+.border-blue{
+    border-left: 10px solid #0000FF;
+}
