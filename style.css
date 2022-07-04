@@ -86,3 +86,10 @@ h1{
 .border-blue{
     border-left: 10px solid #0000FF;
 }
+h2{
+    font-size:35px;
+    margin-bottom: 20px;
+}
+h3{
+    margin-bottom: 20px;
+}
