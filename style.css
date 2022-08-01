@@ -58,13 +58,13 @@ h1{
 .exp-wrap{
     display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
        
 }
 .exp-item{
     width: 40%;
         box-shadow: 5px 7px 40px grey;
-        height: 80%;
+        min-height: 80%;
         padding: 30px 20px 100px 20px;
         margin-right: 30px;
 }
